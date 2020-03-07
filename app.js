@@ -30,8 +30,6 @@ const getInfo = async(direccion) => {
     } catch (e) {
         throw new Error(`No se pudo determinar el clima de  ${direccion}`);
     }
-
-
 }
 
 getInfo(argv.direccion)
